@@ -1,0 +1,72 @@
+.box {
+    height: 30vh;
+    width: 18vh;
+    border-radius: 10px;
+    margin: 5vh;
+    padding: 2vh;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    -webkit-transform: translateZ(50px);
+    -moz-transform: translateZ(50px)
+}
+
+.box>.name {
+    clear: both;
+    text-align: center;
+    font-size: 4vh;
+    top: 20vh;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.delay {
+    background-color: #fb7b0c;
+    width: 25vh;
+}
+
+
+
+.delay .pot:nth-child(1) {
+    top: 0vh;
+    left: -0.5vh;
+}
+.delay .pot:nth-child(2) {
+    top: -4vh;
+    left: 0vh;
+}
+.delay .pot:nth-child(3) {
+    top: 3vh;
+    left: 1vh;
+}
+
+.reverb {
+    background-color: #fba70e;
+    width: 25vh;
+}
+
+
+
+.overdrive {
+    background-color:#f7dbc6;
+}
+
+.overdrive .pot.small {
+    top: -5vh;
+}
+
+.overdrive .pot:nth-child(1) .name {
+    left: -2.5vh;
+}
+.overdrive .pot:nth-child(2) .name {
+    left: 2vh;
+}
+
+.volume {
+    background-color: #cc2e05;
+}
+
+
+
+
